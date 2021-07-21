@@ -1,0 +1,20 @@
+{
+    "name": "heithem/mailtm",
+    "authors": [
+        {
+            "name": "moumniheithem",
+            "email": "moumniheithem@gmail.com"
+        }
+    ],
+    "psr-4": {
+        "Mailtm\\": "src"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mailtm\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
